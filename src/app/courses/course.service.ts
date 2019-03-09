@@ -14,5 +14,11 @@ export class CourseService {
   getService() : Observable<any> {
 return this.http.get(this.URL);
 
+   //  .pipe(
+              //    tap(response => console.log(response)),
+              //    catchError(this.errorHandling)
+              //  )
+
+
   }
 }
