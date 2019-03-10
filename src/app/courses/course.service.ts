@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class CourseService {
 
-  URL : string = "https://1raw.githubusercontent.com/Swadreams/Angular-Batch-Project/master/src/api/courses/courses.json"
+  URL : string = "https://raw.githubusercontent.com/Swadreams/Angular-Batch-Project/master/src/api/courses/courses.json"
  
   constructor(private http : HttpClient) { }
 
